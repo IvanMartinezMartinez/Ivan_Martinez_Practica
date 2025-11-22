@@ -63,12 +63,21 @@ namespace ejercicioTelegrama
                         coste = 5 + 0.75 * (numPalabras - 10);
                     }
                 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> ejercicio
                 else
                 {
                     coste = 0;
                 }
             }
+<<<<<<< HEAD
             txtCoste.Text = coste.ToString() + " euros";
+=======
+            txtCoste.Text = coste.ToString() + " euros";//as
+>>>>>>> ejercicio
         }
     }
 }
